@@ -4,14 +4,14 @@
   <div class="main-container right">
     <ul class="breadcrumbs inline">
       <li><a href="#">Home</a></li>
-      <li>&nbsp;>&nbsp;</li>
+      <li>&nbsp;&gt;&nbsp;</li>
       <li><a href="#">Flame Resistant</a></li>
-      <li>&nbsp;>&nbsp;</li>
+      <li>&nbsp;&gt;&nbsp;</li>
       <li class="active-breadcrumb">FR Coveralls</li>
     </ul>
 
     <div class="product-img-box">
-      <img src="/images/product/product.jpg" alt="Product" />
+      <img src="images/product/product.jpg" alt="Product" />
       <div class="product-options">Available Colors:</div>
       <ul class="inline">
         <li>colors</li>

@@ -45,4 +45,15 @@ jQuery(function($){
   }, function() {
     $(this).find('a.mainlink').removeClass('over'); 
   });
+
+  // product accordion features & details
+  $('.details-accordion').find('ul').hide();
+  $('h3.accordion').click(function(){
+    var $accordion = $('.details-accordion');
+    if(!$(this).hasClass('active-accordion')){
+        $accordion.find('ul').slideUp();
+        $accordion.find('h3').removeClass('active-accordion');
+        $(this).addClass('active-accordion').next('ul').slideDown(400);
+    }
+  });
 });

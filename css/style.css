@@ -163,6 +163,7 @@ button {  width: auto; overflow: visible; }
 body, select, input, textarea { color: #666; font-family: sans-serif; }
 select, input, textarea {font-size: 11px; padding-left: 5px;}
 .radio li { list-style: none; }
+.checkbox { margin-right: 5px; }
 
 p { padding-bottom: 15px; }
 
@@ -271,6 +272,7 @@ section h3 { border-top: 1px solid #777; float: right; font-size: 2.6em !importa
 .products-container { clear: both; }
 .main-container { width: 740px; }
 .breadcrumbs { margin-bottom: 30px; }
+.active-breadcrumb { color :#92101d; }
 
 h2.page-title { clear: left; color: #92101d; font-family: Helvetica, sans-serif; font-size: 1.1em; font-weight: bold; margin-bottom: 10px; text-transform: uppercase; text-shadow: none; }
 ul.layered-nav { margin-bottom: 15px; }
@@ -297,9 +299,9 @@ h3.product-name { color: #700711; font-size: 14px; font-family: Helvetica, sans-
 /*========================================*/
 
 /* Product Page */
-.product-img-box { float: left; margin-top: 20px; width: 310px; }
+.product-img-box { float: left; margin-left: 20px; margin-top: 20px; width: 310px; }
 .product-img-box img { max-width: 267px; /* Need a resize function to make sure images don't exceed this width */}
-.product-details { color: #222; float: right; width: 350px; }
+.product-details { color: #222; float: right; margin-right: 80px; width: 310px; }
 .product-details h1 { color: #222; font-size: 1.6em; font-family: Helvetica, sans-serif; font-weight: bold; text-transform: none; text-shadow: none; }
 .product-details h2 { border-bottom: 1px solid #999; color: #92101d; font-size: 1.4em; font-family: Helvetica, sans-serif; font-weight: bold; margin-bottom: 15px; padding-bottom: 10px; text-shadow: none; text-transform: none; } 
 .our-price { padding-bottom: 0 }
@@ -307,13 +309,15 @@ h3.product-name { color: #700711; font-size: 14px; font-family: Helvetica, sans-
 .reg-price { font-size: 14px; }
 .item-info { font-size: 12px }
 .product-details select { margin-right: 15px; margin-bottom: 15px; }
-.item-options { border-bottom: 1px solid #999; margin: 0 0 20px; padding: 10px 0; }
+.item-options { border-bottom: 1px solid #999; margin: 0 0 20px; padding: 10px 0 15px; }
 .item-options li { line-height: 1.6em; }
 .embroidery { float: left; margin-top: 22px; margin-left: 20px; }
 input.qty { height: 20px; width: 20px; }
 button.add-to { background: url('../images/add-to.jpg') no-repeat; clear: both; float: left; display: block; height: 33px; margin: 15px 0; width: 138px; }
 button.add-to span { background: none; font-size: 18px; }
 .details-accordion { clear: both; }
+.details-accordion ul li { list-style: none }
+h3.accordion { border-top: 1px solid #444; margin: 10px 0; padding: 5px 0; }
 /*========================================*/
 
 
