@@ -50,10 +50,20 @@
 
       <nav>
         <ul class="inline">
-          <li class="level0"><a class="mainlink" href="#">Industrial</a>
+          <li class="level0"><a class="mainlink arrow" href="#">Industrial</a>
             <!-- include a new file for each drop down to increase readability -->
             <?php include('nav.php') ?>
           </li>
+          <li class="level0"><a class="mainlink arrow" href="#">Flame Resistant</a>
+          </li>
+          <li class="level0"><a class="mainlink arrow" href="#">Restaurant</a>
+          </li>
+          <li class="level0"><a class="mainlink arrow" href="#">Specialty</a>
+          </li>
+          <li class="level0"><a class="mainlink arrow" href="#">Security</a>
+          </li>
+          <li class="level0"><a class="mainlink" href="#">Automotive</a></li>
+          <li class="level0 last"><a class="mainlink last" href="#">Embroidery</a></li>
         </ul>
       </nav>
     </header>

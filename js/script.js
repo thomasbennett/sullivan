@@ -41,9 +41,9 @@ jQuery(function($){
 
   // nav adds extra class on hover
   $('li.level0').hover(function(){
-    $(this).find('a.mainlink').addClass('over')
+    $(this).find('a.arrow').addClass('over')
   }, function() {
-    $(this).find('a.mainlink').removeClass('over'); 
+    $(this).find('a.arrow').removeClass('over'); 
   });
 
   // product accordion features & details

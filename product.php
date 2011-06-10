@@ -12,11 +12,12 @@
 
     <div class="product-img-box">
       <img src="images/product/product.jpg" alt="Product" />
+      <a class="view-full-img" href="#">View Full Image</a>
       <div class="product-options">Available Colors:</div>
-      <ul class="inline">
-        <li>colors</li>
-        <li>go</li>
-        <li>here</li>
+      <ul class="inline product-options">
+        <li class="maroon">Maroon</li>
+        <li class="navy">Navy</li>
+        <li class="khaki">Khaki</li>
       </ul>
     </div>
 
@@ -57,19 +58,20 @@
       <div class="details-accordion">
         <h3 class="accordion">FR Garment Details</h3>
         <ul>
-          <li>list</li>
-          <li>of</li>
-          <li>details</li>
-          <li>go</li>
-          <li>here</li>
+          <li>list of details</li>
+          <li>list of details</li>
+          <li>list of details</li>
+          <li>list of details</li>
+          <li>list of details</li>
+          <li>list of details</li>
         </ul>
         <h3 class="accordion">Features</h3>
         <ul>
-          <li>list</li>
-          <li>of</li>
-          <li>details</li>
-          <li>go</li>
-          <li>here</li>
+          <li>list of details</li>
+          <li>list of details</li>
+          <li>list of details</li>
+          <li>list of details</li>
+          <li>list of details</li>
         </ul>
       </div>
     </div>
